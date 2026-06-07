@@ -1,0 +1,124 @@
+{
+  "profile": {
+    "name": "Shivam Prajapati",
+    "shortName": "Shivam",
+    "tagline": "That Brings Your Vision to Life",
+    "role": "Director of Photography & Creative Video Editor",
+    "specialization": "Video Editing · Color Grading · Visual Effects",
+    "location": "Gujarat, India",
+    "yearsOfExperience": "5+",
+    "bio": "Hi, I'm Shivam Prajapati, a passionate video editor specializing in mobile cinematic editing and social media content creation. I focus on transforming raw footage into visually appealing videos that capture attention and leave a lasting impression. Whether it's a Reel, YouTube video, promotional content, or personal project, I ensure every edit reflects professionalism and creativity.",
+    "avatarSvg": "/assets/avatar.png",
+    "social": {
+      "instagram": "https://www.instagram.com/shi_nematic?igsh=MTBtaGdtejg3aDh5Zw%3D%3D&utm_source=qr",
+      "email": "Shinematic254@gmail.com",
+      "phone": "+91 95125 78945"
+    }
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Editing",
+        "items": ["Premiere Pro", "DaVinci Resolve", "After Effects", "Final Cut Pro"]
+      },
+      {
+        "name": "Specializations",
+        "items": ["Cinematic Color Grading", "Social Media Reels", "Wedding Highlights", "Promotional Videos"]
+      }
+    ]
+  },
+  "services": [
+    { "title": "Reel Editing", "desc": "Engaging short-form content optimized for Instagram Reels, Shorts, and social media growth." },
+    { "title": "YouTube Video Editing", "desc": "Professional editing that improves viewer retention and enhances storytelling." },
+    { "title": "Color Grading & Effects", "desc": "Cinematic color correction and visual effects to elevate your content." },
+    { "title": "Promotional & Wedding Videos", "desc": "Creative edits designed for businesses, products, events, and personal branding." }
+  ],
+  "experience": [
+    {
+      "company": "Shinematic",
+      "role": "Founder & Lead Video Editor",
+      "period": "2020 — Present",
+      "location": "Gujarat, India",
+      "summary": "Creating high-quality videos with cinematic storytelling, smooth transitions, engaging effects, and professional finishing.",
+      "highlights": [
+        "Edited 100+ high-end videos for diverse clients.",
+        "Consistently maintained fast turnaround times without compromising quality.",
+        "Built long-term client relationships through professional communication."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Automotive Campaign",
+      "subtitle": "COMMERCIAL / 2026",
+      "description": "A high-octane automotive campaign utilizing dynamic tracking shots and aggressive color grading.",
+      "stack": ["DaVinci Resolve", "Premiere Pro"],
+      "role": "Lead Editor",
+      "year": "2026",
+      "link": "",
+      "image": "/assets/video1.mp4",
+      "highlight": true
+    },
+    {
+      "id": "project-2",
+      "title": "Editorial Fashion",
+      "subtitle": "FASHION FILM",
+      "description": "An avant-garde fashion short film leaning heavily on natural light and film grain.",
+      "stack": ["After Effects", "Color Grading"],
+      "role": "Cinematographer",
+      "year": "2025",
+      "link": "",
+      "image": "/assets/video2.mp4",
+      "highlight": true
+    },
+    {
+      "id": "project-3",
+      "title": "VIP Lifestyle",
+      "subtitle": "DOCUMENTARY",
+      "description": "A documentary-style glimpse into VIP lifestyles, focusing on pacing and mood.",
+      "stack": ["Editing", "Sound Design"],
+      "role": "Editor",
+      "year": "2025",
+      "link": "",
+      "image": "/assets/video3.mp4",
+      "highlight": false
+    },
+    {
+      "id": "project-4",
+      "title": "Rudra Group",
+      "subtitle": "NARRATIVE SHORT",
+      "description": "A narrative short exploring emotional storytelling through restricted color palettes.",
+      "stack": ["Premiere Pro"],
+      "role": "Director of Photography",
+      "year": "2024",
+      "link": "",
+      "image": "/assets/video4.mp4",
+      "highlight": false
+    }
+  ],
+  "education": [],
+  "testimonials": [
+    {
+      "id": "t1",
+      "quote": "Shivam brought our vision to life perfectly. His attention to detail and cinematic eye completely elevated our brand.",
+      "name": "Ravi K.",
+      "role": "Creative Director",
+      "avatarColor": "#f5a623"
+    },
+    {
+      "id": "t2",
+      "quote": "Fast delivery, incredible quality. The reels he edited for us went viral almost instantly.",
+      "name": "Priya S.",
+      "role": "Influencer",
+      "avatarColor": "#8b5cf6"
+    },
+    {
+      "id": "t3",
+      "quote": "Professional communication throughout the entire process. He is truly a master of color grading.",
+      "name": "Aman Patel",
+      "role": "Founder, Rudra Group",
+      "avatarColor": "#ec4899"
+    }
+  ]
+}
