@@ -40,6 +40,16 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
 
+      {/* Center Image Container (Behind all content) */}
+      <div className="absolute left-1/2 -translate-x-1/2 bottom-0 h-[50vh] md:h-[80vh] w-full max-w-[600px] z-10 flex justify-center items-end pointer-events-none">
+        <img 
+          src="/assets/hero-bg.png" 
+          alt={profile.name} 
+          className="h-full w-auto object-cover object-bottom opacity-80"
+          onError={(e) => { e.currentTarget.style.display = 'none' }}
+        />
+      </div>
+
       {/* Main Hero Content (Middle) */}
       <div className="flex-1 w-full flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between z-30 mt-8 md:mt-0 relative max-w-7xl mx-auto gap-8 md:gap-0">
         
@@ -49,20 +59,12 @@ const HeroSection: React.FC = () => {
             <div className="pill-badge-dot"></div>
             Available for Work
           </div>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight text-white tracking-tight drop-shadow-lg">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight text-white tracking-tight drop-shadow-lg z-30">
             Director of Photography & Creative Video Editor based in {profile.location.split(',')[0]}
           </h2>
         </div>
 
-        {/* Center Image Container (Behind all content) */}
-        <div className="absolute left-1/2 -translate-x-1/2 bottom-0 h-[50vh] md:h-[80vh] w-full max-w-[600px] z-0 flex justify-center items-end pointer-events-none">
-          <img 
-            src="/assets/hero-bg.png" 
-            alt={profile.name} 
-            className="h-full w-auto object-cover object-bottom opacity-80"
-            onError={(e) => { e.currentTarget.style.display = 'none' }}
-          />
-        </div>
+
 
         {/* Right Column Text */}
         <div className="w-full md:w-1/3 flex flex-col items-start md:items-start text-left gap-6 md:-mt-32 z-30 mt-0 relative pl-0 md:pl-12">
@@ -81,8 +83,8 @@ const HeroSection: React.FC = () => {
       {/* Giant Overlapping Text (Foreground z-20 so it overlaps the photo) */}
       <div className="w-full absolute bottom-0 left-0 flex justify-center items-end z-20 pointer-events-none pb-4 opacity-100">
         <h1 
-          className="font-bold text-white leading-none text-center w-full"
-          style={{ fontSize: '13vw', letterSpacing: '-0.02em', whiteSpace: 'nowrap' }}
+          className="font-bold text-white leading-none text-center w-full text-[25vw] md:text-[13vw]"
+          style={{ letterSpacing: '-0.02em', whiteSpace: 'nowrap' }}
         >
           {profile.shortName.toUpperCase()}
         </h1>
