@@ -23,7 +23,7 @@
       },
       {
         "name": "Specializations",
-        "items": ["Cinematic Color Grading", "Social Media Reels", "Wedding Highlights", "Promotional Videos"]
+        "items": ["Cinematic Color Grading", "Social Media Reels", "Promotional Videos"]
       }
     ]
   },
@@ -31,7 +31,7 @@
     { "title": "Reel Editing", "desc": "Engaging short-form content optimized for Instagram Reels, Shorts, and social media growth." },
     { "title": "YouTube Video Editing", "desc": "Professional editing that improves viewer retention and enhances storytelling." },
     { "title": "Color Grading & Effects", "desc": "Cinematic color correction and visual effects to elevate your content." },
-    { "title": "Promotional & Wedding Videos", "desc": "Creative edits designed for businesses, products, events, and personal branding." }
+    { "title": "Promotional Videos", "desc": "Creative edits designed for businesses, products, events, and personal branding." }
   ],
   "experience": [
     {
