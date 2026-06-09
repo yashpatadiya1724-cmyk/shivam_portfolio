@@ -54,16 +54,14 @@ const HeroSection: React.FC = () => {
           </h2>
         </div>
 
-        {/* Background Image Container */}
-        <div className="absolute inset-0 w-full h-full z-0 pointer-events-none">
+        {/* Center Image Container (Behind all content) */}
+        <div className="absolute left-1/2 -translate-x-1/2 bottom-0 h-[50vh] md:h-[80vh] w-full max-w-[600px] z-0 flex justify-center items-end pointer-events-none">
           <img 
             src="/assets/hero-bg.png" 
             alt={profile.name} 
-            className="w-full h-full object-cover object-center opacity-60"
+            className="h-full w-auto object-cover object-bottom opacity-80"
             onError={(e) => { e.currentTarget.style.display = 'none' }}
           />
-          {/* Dark gradient overlay for better text readability */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
         </div>
 
         {/* Right Column Text */}
