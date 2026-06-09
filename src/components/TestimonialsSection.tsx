@@ -10,7 +10,7 @@ const TestimonialsSection: React.FC = () => {
   return (
     <section className="py-24 bg-[#0a0a0a] border-t border-gray-900 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 mb-12 flex items-center justify-center gap-4">
-        <MessageSquareQuote size={32} className="text-[#FF5C00]" />
+        <MessageSquareQuote size={32} className="text-white" />
         <h2 className="text-3xl font-bold uppercase tracking-widest text-gray-200">Testimonials</h2>
       </div>
       

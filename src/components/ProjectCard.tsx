@@ -16,7 +16,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               {String(index + 1).padStart(2, '0')}
             </span>
             {project.highlight && (
-              <span className="px-3 py-1 bg-[#FF5C00] text-white text-[10px] font-bold uppercase rounded-full tracking-wide">
+              <span className="px-3 py-1 bg-white text-black text-[10px] font-bold uppercase rounded-full tracking-wide">
                 Featured
               </span>
             )}

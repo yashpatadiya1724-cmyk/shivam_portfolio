@@ -26,7 +26,7 @@ const ExperienceSection: React.FC = () => {
               <ul className="space-y-3">
                 {exp.highlights.slice(0, 3).map((highlight, i) => (
                   <li key={i} className="flex items-start text-gray-500">
-                    <span className="mr-3 text-[#FF5C00] mt-1">▹</span>
+                    <span className="mr-3 text-white mt-1">▹</span>
                     <span>{highlight}</span>
                   </li>
                 ))}
