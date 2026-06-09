@@ -82,7 +82,7 @@ const HeroSection: React.FC = () => {
       </div>
 
       {/* Giant Overlapping Text (Background z-0 so it is behind the photo) */}
-      <div className="w-full absolute bottom-0 left-0 flex justify-center items-end z-0 pointer-events-none pb-4 opacity-50 md:opacity-100">
+      <div className="w-full absolute top-1/2 -translate-y-1/2 left-0 flex justify-center items-center z-0 pointer-events-none opacity-50 md:opacity-100 mt-10 md:mt-20">
         <h1 
           className="font-bold text-white leading-none text-center w-full"
           style={{ fontSize: '13vw', letterSpacing: '-0.02em', whiteSpace: 'nowrap' }}
